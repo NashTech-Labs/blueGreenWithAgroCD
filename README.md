@@ -44,8 +44,8 @@ Installation of Argo Rollouts controller </br>
 
 ## How to deploy 
 - To keep things simple, let’s create all these objects for now in the default namespace by running the below commands:
-###### ("argo-rollout/blueGreen/" is the name of the directory  where all my YAML filre placed) </br>
-```kubectl apply -f argo-rollout/blueGreen/ ``` 
+  ###### ("argo-rollout/blueGreen/" is the name of the directory  where all my YAML filre placed) </br>
+  ```kubectl apply -f argo-rollout/blueGreen/ ``` 
 
 - See all the objects created in the default namespace by running the below commands: </br>
 ```kubectl get all```
